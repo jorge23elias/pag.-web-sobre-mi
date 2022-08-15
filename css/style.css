@@ -1,0 +1,331 @@
+html{
+    box-sizing: border-box;
+}
+
+
+*, *::before, *::after{
+
+    box-sizing: inherit;
+
+}
+
+*{
+    font-family: 'Vollkorn', serif;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+span{
+
+    color: orangered;
+
+}
+
+.hero{
+    color: aliceblue;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(204, 8, 8, 0.4) ) , url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.navegacion,.navegacion ul{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.navegacion h2{
+
+    margin: 0px 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+.navegacion h2 a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.navegacion ul li{
+
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+.navegacion ul li a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.navegacion ul li a:hover{
+
+    color: orangered;
+   
+}
+
+.navegacion ul button{
+
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    margin: 0px 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16.5px;
+
+}
+
+.hero_principal {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 100px;
+    
+}
+
+.principal--img{
+
+
+    width: 10%;
+    border-radius: 50%;
+    overflow: hidden;
+
+
+}
+
+.principal--img img {
+
+
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/*Main*/
+
+
+.main{
+
+    background: linear-gradient(to top,rgb(194, 90, 65) ,rgb(105, 49, 64), rgb(65, 30, 51));
+    
+}
+
+
+
+.main_perfil{
+
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.perfil--img{
+
+    width: 200px;
+    overflow: hidden;
+    height: 300px;
+    margin-right: 25px;
+
+}
+
+.perfil--img img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.perfil--inf{
+
+    width: 500px;
+    overflow: hidden;
+
+}
+
+.perfil--inf h4{
+
+    color: orangered;
+    text-transform: capitalize;
+
+}
+
+.perfil--inf h2{
+
+    text-transform: capitalize;
+
+}
+.perfil--linea{
+    
+    margin-bottom: 15px;
+    height: 1px;
+    width: 40px;
+    background: orangered;
+
+}
+
+
+.perfil--inf p{
+
+   margin-bottom: 15px;
+
+}
+
+.perfil--formulario{
+
+    display: flex;
+    justify-content: space-around;
+    border: 2.5px solid;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.284);
+
+}
+
+.perfil--formulario-datos{
+
+
+    display: flex;
+    margin: 10px 0px;
+
+}
+
+.perfil--inf dt{
+
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 8px;
+
+}
+
+
+.perfil--inf dd{
+
+    text-transform: capitalize;
+    margin-right: 8px;
+
+}
+
+.perfil--inf button{
+
+
+    background-color: orangered;
+    padding: 12px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+/*Service*/
+
+.main_service{
+
+
+    min-height: 80vh;
+    padding: 25px;
+
+}
+
+
+.main_service h4{
+
+
+    color: orangered;
+    text-transform: capitalize;
+    font-size: 25px;
+
+    margin: none;
+    padding: none;
+}
+
+.main_service h2{
+
+    text-transform: capitalize;
+    font-size: 50px;
+
+}
+
+.service--card{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+
+.service_datos{
+
+    border: 2.5px solid;
+    width: 26%;
+    margin: 15px;
+    padding: 12px;
+
+}
+
+
+.service--img{
+
+    width: 50px;
+    overflow: hidden;
+
+}
+
+.service--img img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.service_datos section h3{
+
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    
+
+ 
+}
+
+
+
+footer{
+
+    text-align: center;
+    background: rgba(6, 4, 4, 0.282);
+    text-transform: capitalize;
+
+}
+
+footer a{
+
+   color: blue;
+   text-decoration: none;
+
+}
+
+
+
